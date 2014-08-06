@@ -146,3 +146,20 @@ body {
  *********************************************/
 .reveal .slide-number {
   color: #13daec; }
+
+.reveal section img.no-border {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.reveal section span.text-sel {
+    padding: 2px 7px ;
+font-size: 80%;
+color: #000;
+background-color: #fff;
+border-radius: 3px;
+box-shadow: inset 0 -1px 0 rgba(0,0,0,0.25);
+display: inline-block;
+margin: 0 10px ;
+}
